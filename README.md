@@ -1,16 +1,36 @@
-## Hi there 👋
+# Welcome to My GitHub Profile
 
-<!--
-**gabrielxy123/gabrielxy123** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Animated Header
+![](https://media.giphy.com/media/26gPhcN5trU14ZB1y/giphy.gif)
 
-Here are some ideas to get you started:
+## Typing Effects
+```javascript
+const typingEffect = (element, text) => {
+  let index = 0;
+  const interval = setInterval(() => {
+    if (index < text.length) {
+      element.textContent += text.charAt(index);
+      index++;
+    } else {
+      clearInterval(interval);
+    }
+  }, 100);
+};
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Tech Stack Badges
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
+
+## GitHub Statistics
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=gabrielxy123&show_icons=true&count_private=true&theme=radical)
+
+## Trophies
+![Trophy](https://github-profile-trophy.vercel.app/?username=gabrielxy123&theme=onedark)
+
+## Activity Graph
+![Activity Graph](https://github-readme-activity-graph.cyclic.app/graph?username=gabrielxy123&theme=react)
+
+## Connect with Me
+[LinkedIn](https://www.linkedin.com/in/gabrielxy123) | [Twitter](https://twitter.com/gabrielxy123) | [Personal Blog](https://gabrielxy123.dev)
